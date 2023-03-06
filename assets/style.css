@@ -1,0 +1,21 @@
+body {
+    background-image: url('./softwareDevBkgnd.jpg');
+    background-size: cover !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.team-heading {
+    background-color: cornflowerblue;
+    height: 10%;
+    padding: 0%;
+    color: white;
+}
+
+.card-header {
+    background-color: lightblue;
+    color: white;
+    font-size: 0px;
+}
+
+.card-body {
+    background-color: bisque;
+}
