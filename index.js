@@ -103,7 +103,7 @@ async function init() {
   }
 
   const html = render(employees);
-  fs.writeFile('team.html', html, (err) => {
+  fs.writeFile(outputPath, html, (err) => {
     if (err) throw err;
     console.log('Team page generated! Check out team.html to see it.');
   });
