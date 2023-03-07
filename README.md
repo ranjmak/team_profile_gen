@@ -1,12 +1,32 @@
-# Module 12 Object-Oriented Programming: Team Profile Generator
+# Team Profile Generator
+[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
-## Your Task
+## Table of Contents
+[Requirement](#requirement)
 
-Your task is to take the given starter code and convert it into a working Node.js command-line application. This application will take in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person. You have been provided with tests, so make sure every part of your code passes each provided test.
+[User Story](#userstory)
 
-## User Story
+[Instructions](#instructions)
 
-As a manager a user want to generate a webpage that displays my team's basic info so that a user have quick access to their emails and GitHub profiles.
+[Links](#links)
+
+[Screenshots](#screenshots)
+
+[Contributions](#contributions)
+
+[Tests](#tests)
+
+[Questions](#questions)
+
+[License](#license)
+
+## Requirement
+
+An assignment as part of a Bootcamp course on frontend web development. Given the starter code, convert it into a working Node.js command-line application. This application will take in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person. Tests have been provided for all the employee classes, so we need to ensure that the code passes each provided test.
+
+## User_Story
+
+As a manager a user want to generate a webpage that displays their team's basic info so that the user can have quick access to their emails and GitHub profiles.
 
 ## Instructions
 
@@ -62,81 +82,66 @@ As a manager a user want to generate a webpage that displays my team's basic inf
 
 ---
 
-## Mock-Up
+## Links
 
-The following image shows a mock-up of the generated HTML’s appearance and functionality:
+The files for this project can be found in this Github repo:
+https://github.com/ranjmak/team_profile_gen
 
-![HTML webpage titled “My Team” features five boxes listing employee names, titles, and other key info.](./assets/14-object-oriented-programming-challenge-demo.png)
+The sample team.html can be found in the output folder in this repo:
+https://github.com/ranjmak/team_profile_gen/blob/main/output/team.html
 
-The styling in the image is just an example, so feel free to add your own.
 
----
 
-## Getting Started
+## Screenshots
 
-This Challenge will combine many of the skills we've covered so far. In addition to the User Story and Acceptance Criteria, we’ve provided some guidelines to help get started.
+The following image shows Jest being run, which tests the functionality of the Employee, Manager, Engineer and Intern classes. It also shows the source code including the JSON package, indicating the CLI test to use when running the test:
 
-Your application should use [Jest](https://www.npmjs.com/package/jest) for running the unit tests and [Inquirer](https://www.npmjs.com/package/inquirer) for collecting input from the user. The application will be invoked by using the following command:
-
-```bash
-node index.js
-```
+![screenshot of jest test results.](./assets/images/testResults.png)
 
 ---
 
-## Hints
+The following image shows the user inputting details of their team:
 
-* You will want to make your methods as pure as possible. This means try to make your methods simple so that they are easier to test.
-
-* The different employee types should all inherit some methods and properties from a base class of `Employee`.
- 
-* Be sure to test out each class and verify it generates an object with the correct structure and methods. This structure will be crucial in order for the provided `render` function to work!
-  
-* You may need to check if the `output` folder exists and create it if it does not.
+![screenshot of user input to the team profile generator.](./assets/images/teamProfiles.png)
 
 ---
 
-## Grading Requirements
+The follwoing image shows the generated html file:
 
-This Challenge is graded based on the following criteria: 
-
-### Deliverables: 25%
-
-* A sample HTML file generated using the application must be submitted.
-
-* Your GitHub repository containing your application code.
-
-### Technical Acceptance Criteria: 50%
-
-* Satisfies all of the preceding acceptance criteria plus the following:
-
-	* Uses the [Inquirer package](https://www.npmjs.com/package/inquirer).
-
-	* All tests pass using the [Jest package](https://www.npmjs.com/package/jest).
-
-  * The application must have `Employee`, `Manager`, `Engineer`, and `Intern` classes.
-
-### Repository Quality: 25%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains a high-quality readme with description.
+![screenshot of the generated team.html file.](./assets/images/generatedTeamHTML.png)
 
 ---
 
-## Review
+  ## Contributions
+  If you would like to make a contribution to this project, please get in touch via email with your proposals
 
-You are required to submit the following for review:
 
-* A sample HTML file generated using your application.
+  ## Tests
+  Jest was used to test the Employee, Manager, Engineer and Intern classes - the results are shown in the first screenshot above.
 
-* The URL of the GitHub repository, with a unique name and a readme describing the project.
 
----
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+  ## Questions
+  Please feel free to reach out to me with any questions about this project at [ranjit.makwana@gmail.com](mailto:ranjit.makwana@gmail.com). You can also check out my Github profile: [ranjmak](https://github.com/ranjmak).
+
+
+  ---
+
+  ## License
+  This project is licensed under the terms of the [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/) license:
+  Unlicensed
+
+2023 Ranj
+
+Anyone is free to copy, modify, publish, use, compile, sell, or
+distribute this software, either in source code form or as a compiled
+binary, for any purpose, commercial or non-commercial, and by any
+means.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE. See the Unlicenced license for more details.
+
