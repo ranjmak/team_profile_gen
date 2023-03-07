@@ -1,5 +1,5 @@
 body {
-    background-image: url('./softwareDevBkgnd.jpg');
+    background-image: url('../images/softwareDevBkgnd.jpg');
     background-size: cover !important;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
